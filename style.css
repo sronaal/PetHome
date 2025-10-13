@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main .hero{
+    display: flex;
+    height: 100vh;
+    max-height: 100%;
+    background: #F7E9D9;
+    background: linear-gradient(90deg, rgba(247, 233, 217, 1) 50%, rgba(231, 241, 244, 1) 100%);
+    padding: 100px 80px;
+}
+
+main .hero .hero-content{
+
+    margin: 0 20px;
+}
+
+main .hero .hero-content .badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FEFAF8;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+main .hero .hero-content .badge svg{
+    stroke: #FF9F66;
+}
+
+main .hero .hero-content .badge p{
+
+    font-size: 16px;
+    color: #5C6473;
+}
+
+
+main .hero .hero-content h2{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #1E2939;
+}
+
+main .hero .hero-content .text-p{
+
+    font-size: 1.4rem;
+    color: #5C6473;
+    margin-bottom: 25px;
+} 
+
+
+main .hero .btn-content{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+main .hero .btn-content .btn-adoptar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #FF9F66;
+    color: #F7E9D9;
+    border: none;
+    font-size: 16px;
+}
+
+main .hero .btn-content .btn-adoptar .fi-rr-heart{
+
+    display: flex;
+    font-size: 16px;
+}
+
+
+main .hero .btn-content .btn-apadrinar{
+    width: 130px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #FEFAF8;
+    border: 2px solid #B8E0FF;
+    color: #5C6473;
+}
+
+main .text-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+main .text-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #B8E0FF;
+}
+
+main .text-content .text-adoptados{
+    color: #FF9F66;
+}
+
+main .text-content span p{
+    font-size: 12px;
+    color: #5C6573;
+}
+
+main .hero-img img{
+
+    width: 600px;
+    border-radius: 20px;
+}
+
+/* Dispositivos Moviles */
+
+@media (max-width: 1024px){
+
+    main .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    main .hero .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .hero .hero-content .badge{
+        
+    }
+
+}
