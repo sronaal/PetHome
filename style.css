@@ -9,6 +9,8 @@ main .hero{
     display: flex;
     height: auto;
     min-height: 100vh;
+    max-width: 100%;
+    width: 100%;
     background: #F7E9D9;
     background: linear-gradient(90deg, rgba(247, 233, 217, 1) 50%, rgba(231, 241, 244, 1) 100%);
     padding: 100px 80px;
