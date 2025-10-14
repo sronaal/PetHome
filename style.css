@@ -324,6 +324,7 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
 
 
 main .mascotas .mascotas-footer{
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
