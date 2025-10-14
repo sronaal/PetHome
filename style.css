@@ -428,6 +428,7 @@
   }
 
   @media (max-width: 480px) {
+
     main .hero {
       flex-direction: column-reverse;
       text-align: center;
@@ -507,6 +508,13 @@
     main .cards-mascotas .card-footer .btn-card a {
       width: 100%;
     }
+
+    main .historias picture img{
+      width: 250px;
+      height: 200px;
+    }
+
+
   }
 
 
@@ -518,5 +526,10 @@
 
     main .cards-mascotas .card {
       width: 700px;
+    }
+
+    main .historias .card-historia{
+      flex-direction: column;
+      text-align: center;
     }
   }
