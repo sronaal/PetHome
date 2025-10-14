@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -11,6 +13,7 @@
   --color-bg-light: #FEFAF8;
   --color-text: #5C6473;
   --color-title: #1E2939;
+  --color-bg-orange-ligth: #ffe2eb;
 }
 
 main .hero {
@@ -160,6 +163,163 @@ main .hero-img img {
 
 main .hero-img img:hover {
   transform: scale(1.03);
+}
+
+main .mascotas {
+
+  background: #FFFEFE;
+  background: radial-gradient(circle, rgba(255, 254, 254, 1) 0%, rgba(253, 233, 240, 1) 69%);
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+main .mascotas .badge{
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0;
+  width: fit-content;
+  background-color: var(--color-bg-orange-ligth);
+  padding: 10px;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+main .mascotas .badge:hover{
+  transform: translateY(-3px);
+}
+
+main .mascotas .badge p{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+main .mascotas .badge svg{
+
+  fill: var(--color-primary);
+  transform: rotate(30deg);
+}
+
+main .mascotas h2{
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--color-title);
+}
+
+main .mascotas .subtitle {
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin-bottom: 30px;
+}
+
+main .cards-mascotas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+main .cards-mascotas .card{
+
+  background-color: #FFFFFF;
+  height: 600px;
+  width: 500px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+main .cards-mascotas .card .card-header{
+  height: 300px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+main .cards-mascotas .card .card-header img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+main .cards-mascotas .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* 🌟 efecto flotante al pasar el mouse */
+}
+
+main .cards-mascotas .card .card-body {
+  padding: 20px;
+  text-align: left;
+  max-height: 220px;
+
+}
+
+
+main .cards-mascotas .card-body span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+main .cards-mascotas .card-body span h3{
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color-title);
+}
+
+main .cards-mascotas .card-body .text-edad{
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+
+main .cards-mascotas .card-body h4{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--color-text);
+  margin-bottom: 15px;
+}
+
+main .cards-mascotas .card-footer .btn-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+main .cards-mascotas .card-footer .btn-card a{
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+main .cards-mascotas .card-footer .btn-card .btn-adoptar{
+  background-color: #FF9F66;
+  color: var(--color-bg-light);
+}
+
+main .cards-mascotas .card-footer .btn-card .btn-adoptar:hover{
+  background-color: #ff8442;
+  transform: scale(1.05);
+}
+
+main .cards-mascotas .card-footer .btn-card .btn-apadrinar{
+  background-color: var(--color-bg-light);
+  border: 2px solid #B8E0FF;
+  color: var(--color-text);
+}
+
+main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
+  transform: scale(1.05);
 }
 
 @media (max-width: 1024px) {
