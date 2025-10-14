@@ -1,3 +1,19 @@
+## 👤 Autor
+
+<p align="center">
+  <a href="https://github.com/sronaal">
+    <img src="https://avatars.githubusercontent.com/u/88067203?v=4" width="120px" alt="Foto de perfil de Ronal Sánchez"/>
+  </a>
+</p>
+
+<p align="center">
+  <b>Ronal Sánchez</b>  
+  <br />
+  🚀 Fullstack Developer
+</p>
+
+---
+
 # PetHome 🐾
 
 **PetHome** es una landing page enfocada en promover la adopción de mascotas, mostrando información relevante, imágenes y llamadas a la acción para que más personas conozcan mascotas que necesitan un hogar.
