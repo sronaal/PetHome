@@ -412,8 +412,8 @@
     align-items: start;
     flex-direction: column;
   }
-  
-  main .historias .card-historia h2{
+
+  main .historias .card-historia h2 {
     font-size: 2rem;
     color: var(--color-title);
   }
@@ -427,13 +427,13 @@
     margin: 15px 25px 15px 25px;
   }
 
-  main .funcionamiento{
+  main .funcionamiento {
     height: 100vh;
     background-color: var(--color-bg-light);
     text-align: center;
   }
 
-  main .funcionamiento .badge{
+  main .funcionamiento .badge {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -444,19 +444,143 @@
     border-radius: 30px;
   }
 
-  main .funcionamiento .badge p{
+  main .funcionamiento .badge p {
     color: var(--color-text);
   }
 
-  main .funcionamiento h2{
+  main .funcionamiento h2 {
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 10px;
   }
-  main .funcionamiento .subtitle{
+
+  main .funcionamiento .subtitle {
     color: var(--color-text);
     font-size: 1.3rem;
   }
+
+  main .funcionamiento .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 40px;
+    padding: 20px 60px;
+  }
+
+  main .funcionamiento .cards .card {
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: visible;
+    padding: 30px 20px;
+    text-align: left;
+  }
+
+  main .funcionamiento .cards .card span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  main .funcionamiento .cards .card span p {
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  main .funcionamiento .cards .card .logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    background-color: #FEF5F8;
+    margin-bottom: 40px;
+  }
+
+  main .funcionamiento .cards .card h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  main .funcionamiento .cards .card p {
+    font-size: 20px;
+    color: var(--color-text);
+  }
+
+  main .funcionamiento .cards .badge-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FDE8EF;
+    border-radius: 40px;
+    padding: 5px 30px;
+    width: fit-content;
+    height: 90px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  main .funcionamiento .badge-footer .icons {
+    display: flex;
+   
+  }
+
+  main .funcionamiento .cards .badge-footer .icons span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: -px;
+    background-color: #FF8442;
+    border-radius: 50%;
+    margin-left: -15px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  main .funcionamiento .cards .badge-footer .icons .dog{
+    background-color: #FEB7D0;
+  }
+
+  main .funcionamiento .cards .badge-footer .icons .cat{
+    background-color: #B7DFFE;
+  }
+  main .funcionamiento .cards .badge-footer .icons .rabbit{
+    background-color: #A8E6CF;
+  }
+
+  main .funcionamiento .cards .badge-footer p{
+    color: var(--color-text);
+  }
+  
+  main .funcionamiento .cards .badge-footer .icons span:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+
 
   @media (max-width: 480px) {
 
@@ -540,9 +664,18 @@
       width: 100%;
     }
 
-    main .historias picture img{
+    main .historias picture img {
       width: 250px;
       height: 200px;
+    }
+
+    main .funcionamiento .cards{
+      margin: 30px 10px;
+      padding: 0;
+    }
+    
+    main .funcionamiento .cards .badge-footer{
+      margin-bottom: 30px;
     }
 
 
@@ -559,8 +692,28 @@
       width: 700px;
     }
 
-    main .historias .card-historia{
+    main .historias .card-historia {
       flex-direction: column;
       text-align: center;
     }
+
+    main .funcionamiento .cards .card {
+      width: 450px;
+      height: 400px;
+    }
+
+    main .funcionamiento .cards .card .logo {
+      margin-bottom: 55px;
+    }
+
+    main .funcionamiento .cards .card h3 {
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+
+    main .funcionamiento .cards .card p {
+      font-size: 25px;
+    }
+
+
   }
