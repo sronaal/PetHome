@@ -377,7 +377,7 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
   main .cards-mascotas .card{
     max-width: 360px;
     max-height: 800px;
-    margin: 0 20px;
+    margin: 20px;
   }
 
   main .cards-mascotas .card .card-header{
