@@ -322,6 +322,30 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
   transform: scale(1.05);
 }
 
+
+main .mascotas .mascotas-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  
+}
+
+main .mascotas .mascotas-footer p{
+  color: var(--color-text);
+}
+
+main .mascotas .mascotas-footer a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-primary);
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-underline-offset: 8px;
+}
+
 @media (max-width: 480px) {
   main .hero {
     flex-direction: column-reverse;
@@ -402,6 +426,7 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
     width: 100%;
   }
 }
+
 
 @media  (max-width: 868px) {
   
