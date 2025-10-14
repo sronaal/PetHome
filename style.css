@@ -322,7 +322,7 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
   transform: scale(1.05);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
   main .hero {
     flex-direction: column-reverse;
     text-align: center;
@@ -362,5 +362,53 @@ main .cards-mascotas .card-footer .btn-card ,.btn-apadrinar:hover{
 
   main .btn-content {
     justify-content: center;
+  }
+  main .btn-content button{
+    justify-content: center;
+    width: 100%;
+  }
+
+  main .mascotas .subtitle{
+    font-size: 16px;
+    break-inside: avoid;
+  }
+
+
+  main .cards-mascotas .card{
+    max-width: 360px;
+    max-height: 800px;
+    margin: 0 20px;
+  }
+
+  main .cards-mascotas .card .card-header{
+    max-height: 250px;
+  }
+
+
+  main .cards-mascotas .card-body span h3{
+    font: 30px;
+  }
+
+  main .cards-mascotas .card-body h4{
+    font-size: 1rem;
+  }
+
+  main .cards-mascotas .card-footer .btn-card{
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  main .cards-mascotas .card-footer .btn-card a{
+    width: 100%;
+  }
+}
+
+@media  (max-width: 868px) {
+  
+  main .cards-mascotas{
+    padding: 0;
+  }
+  main .cards-mascotas .card{
+    width: 700px;
   }
 }
