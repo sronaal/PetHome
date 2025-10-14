@@ -20,6 +20,12 @@
 
 ---
 
+## 🖥️ Vista Previa
+
+[Enlace](https://sronaal.github.io/PetHome/)
+
+---
+
 ## Características
 
 - Diseño limpio y atractivo para destacar mascotas en adopción.  
@@ -33,11 +39,5 @@
 
 - **HTML5**  
 - **CSS3**  
-
----
-
-## 🖥️ Vista Previa
-
-[Enlace](https://sronaal.github.io/PetHome/)
 
 ---
