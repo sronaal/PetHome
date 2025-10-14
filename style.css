@@ -427,6 +427,37 @@
     margin: 15px 25px 15px 25px;
   }
 
+  main .funcionamiento{
+    height: 100vh;
+    background-color: var(--color-bg-light);
+    text-align: center;
+  }
+
+  main .funcionamiento .badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+    width: fit-content;
+    background-color: #EEFAF5;
+    padding: 10px 15px;
+    border-radius: 30px;
+  }
+
+  main .funcionamiento .badge p{
+    color: var(--color-text);
+  }
+
+  main .funcionamiento h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  main .funcionamiento .subtitle{
+    color: var(--color-text);
+    font-size: 1.3rem;
+  }
+
   @media (max-width: 480px) {
 
     main .hero {
