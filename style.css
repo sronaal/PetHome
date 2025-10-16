@@ -843,6 +843,21 @@
     font-size: 12px;
   }
 
+  main .footer .footer-derechos{
+    margin-top: 10px;
+    color: var(--color-text);
+    text-align: center;
+    padding: 20px;
+  }
+
+  main .footer .footer-derechos a{
+    text-decoration: none;
+    color: var(--color-text);
+  }
+  
+  main .footer .footer-derechos a:hover{
+    color: var(--color-primary);
+  }
 
   @media (max-width: 480px) {
 
